@@ -1,0 +1,64 @@
+name: news_application
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  cupertino_icons: ^1.0.6
+
+  dio: ^5.4.3+1
+
+  #STATE MANAGEMENT
+  flutter_bloc: ^8.1.4
+
+  #COMPARING DART OBJECTS
+  equatable: ^2.0.5
+
+  #SERVICE LOCATOR
+  get_it: ^7.7.0
+
+  #DATE FORMAT
+  intl: ^0.19.0
+
+  #DATABASE
+  floor: ^1.5.0
+
+  #MAKE REQUEST TO API
+  retrofit: ^4.1.0
+
+  #HOOKS
+  flutter_hooks: ^0.20.5
+
+  #CACHED IMAGES
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  flutter_lints: ^3.0.0
+
+  retrofit_generator: ^8.1.0
+  floor_generator: ^1.5.0
+  build_runner: ^2.4.10
+  
+flutter:
+
+  uses-material-design: true
+  
+  fonts:
+    - family:
+      fonts:
+        - asset: assets/fonts/muli/Muli.ttf
+        - asset: assets/fonts/muli/Muli-Bolds.ttf
+          weight: 700
+        - asset: assets/fonts/muli/Multi-Light.ttf
+          weight: 300
